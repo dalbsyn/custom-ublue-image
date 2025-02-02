@@ -16,7 +16,7 @@ RELEASE="$(rpm -E %fedora)"
 rpm-ostree install baobab
 
 # this would install a package from rpmfusion
-rpm ostree uninstall firefox nvtop
+rpm ostree uninstall firefox nvtop htop
 
 #### Example for enabling a System Unit File
 
